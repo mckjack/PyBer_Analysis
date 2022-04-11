@@ -7,8 +7,9 @@ Analyzing the data from the two csv files we were given we were able to create a
 ###
   ![Summary](https://github.com/mckjack/PyBer_Analysis/blob/main/pyber_summary_df.png)
 ---
-As we can see there is a huge difference of the amount of rides and drivers between the urban and rural city type. Due to this the average fare price between the two are fairly different with the rural average ride price being $34.62 which is 10 dollars more than the average ride price in an urban area. We also notice that the number of suburban drivers are roughly 6x higher than the amount of rural area drivers and the discrepency between the revenue is huge. From this conclusion we are able to notice that the revenue based upon the total fares of each city type is higher when there is a larger ratio of total drivers to total rides. 
+#### As we can see there is a huge difference of the amount of rides and drivers between the urban and rural city type. Due to this the average fare price between the two are fairly different with the rural average ride price being $34.62 which is 10 dollars more than the average ride price in an urban area. We also notice that the number of suburban drivers are roughly 6x higher than the amount of rural area drivers and the discrepency between the revenue is huge. From this conclusion we are able to notice that the revenue based upon the total fares of each city type is higher when there is a larger ratio of total drivers to total rides. 
 ---
-Further into our analysis we decided to resample the dataframe to show a weekly change in the total fare between the weeks from January to May for each city type. After some resampling in our code we got a new dataframe that resembled the following, 
+#### Further into our analysis we decided to resample the dataframe to show a weekly change in the total fare between the weeks from January to May for each city type. After some resampling in our code we got a new dataframe that resembled the following, 
 ---
-![
+![Resample](https://github.com/mckjack/PyBer_Analysis/blob/main/Average%20Fare.png)
+--- 
