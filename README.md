@@ -17,4 +17,15 @@ Further into our analysis we decided to resample the dataframe to show a weekly 
 
 We can see that the change between the total fare in each city type differs from week to week, however in the urban city type it stays above a certain threshold each week meaning that the revenue doesn't fall below a certain value. After investigating this further we were able to visualize and make a graph of the following data using the object oriented approach. We got the following, 
 
-![
+![Graph](https://github.com/mckjack/PyBer_Analysis/blob/main/Analysis/Pyber_fare_summary.png)
+
+As we can see in this graph that when urban starts in January of 2019 it does not dip below its starting point whereas rural does drop below its starting point multiple times. This concludes that higher populated dense areas are good for Pyber due to an increase in total revenue and number of drivers and rides. 
+
+--- 
+
+## Summary 
+The three recommendations we can make to improve Pyber ride-sharing data are the following,
+- increase the number of drivers in rural areas therefore the demand for rides can be met. Some of these drivers are travelling long distances due to the average fare for each driver in rural areas are much higher. Therefore some drivers may miss other trips due to being occupied on a long drive. 
+- Decrease the fare for the rides in both rural and suburban areas since the average fares are higher than that of the urban areas. Depending on how the fare is calculated instead of doing it by distance travelled, replace it with time spent travelling therefore decreasing the overall cost for each ride therefore increasing revenue. Likewise increases fares in the urban city types by time spent travelled meaning the average fare would go up. 
+- Lastly, decrease the amount of drivers in the urban city types. There is a total of 2,405 drivers and only 1,625 rides indicating that not every driver has done at least one ride. This would increase the average driver fare meaning an increase in revenue. 
+ 
